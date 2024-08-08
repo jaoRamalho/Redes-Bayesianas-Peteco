@@ -19,6 +19,21 @@ Link Exemplo Tacla - https://www.linkedin.com/pulseapplying-causal-inference-pla
             """
         )
 
+## METODOS DO MODELO 
+
+    methods = [
+        "backdoor.propensity_score_matching",
+        "backdoor.propensity_score_weighting",
+        "backdoor.propensity_score_stratification",
+        "backdoor.linear_regression",
+        "iv.two_stage_least_squares",
+        "frontdoor.adjustment",
+        "dml.dml",
+        "regression_discontinuity",
+        "difference_in_differences"
+    ]
+
+
 ## Bibliotecas
 
     - pip install dowhy pandas graphviz matplotlib numpy
